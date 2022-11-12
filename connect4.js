@@ -132,3 +132,4 @@ document.getElementById('start-game').addEventListener('click', () => {
   let p2 = new Player(document.getElementById('p2-color').value);
   new Game(p1, p2);
 });
+
